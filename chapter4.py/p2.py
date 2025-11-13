@@ -1,0 +1,13 @@
+students = []
+f1 = int(input("Enter the first marks  "))
+students.append(f1)
+f2 = int(input("Enter the second marks  "))
+students.append(f2)
+f3 = int(input("Enter the third marks  "))
+students.append(f3)
+f4 = int(input("Enter the fourth marks  "))
+students.append(f4)  
+students.sort()
+print (students)
+students.reverse()
+print(students)

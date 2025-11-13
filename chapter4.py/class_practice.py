@@ -1,0 +1,15 @@
+l1 = [1,8,7,2,21,15] # list mutable hoti hai , string mutable nahi hoti 
+l1.sort()
+print(l1) 
+l1.reverse()
+print(l1)
+l1.append(19)
+print(l1)
+l1.insert(1,9)
+print(l1)
+l1.pop(4)
+print(l1)
+#tuple
+a = (1,2,33,43,"Aditya","Parag","Radhe",33)
+print(a.count(33))
+print(a.index(43))
